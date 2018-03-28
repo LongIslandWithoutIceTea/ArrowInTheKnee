@@ -134,6 +134,15 @@
 						<p></p>
 						<input class='mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast' type='submit' value='Confirm Update'>
 					</form>
+					<form action='delete_account.php' method='POST' enctype='multipart/form-data'>
+						<div style='text-indent:25px'>
+							<p></p>
+							<input type='text' name='email' value='{$email}' style='display: none'></p>
+							<p></p>
+						</div>
+						<p></p>
+						<input class='mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--red mdl-color-text--accent-contrast' type='submit' value='Delete Account'>
+					</form>
 				</main>
 			</div>
 			<script src='https://code.getmdl.io/1.3.0/material.min.js'></script>
