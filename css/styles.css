@@ -378,52 +378,72 @@ a img{
   height: 400px;
 }
 
-.android-more-section {
+.profile {
+  text-align: left;
+	margin-left: 10px;
+}
+
+.profile-text {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 80px 16px 0 16px;
+}
+
+.profile-avator {
+  height: 100px;
+}
+
+.feature_description {
   padding: 80px 0;
   max-width: 1044px;
   margin-left: auto;
   margin-right: auto;
 }
 
-  .android-more-section .android-section-title {
+  .feature_description .feature-section-title {
     margin-left: 12px;
+		text-align: center;
     padding-bottom: 24px;
   }
 
-.android-card-container {
+.feature-card-container {
 }
 
-  .android-card-container .mdl-card__media {
+  .feature-card-container .mdl-card__media {
     overflow: hidden;
     background: transparent;
   }
 
-    .android-card-container .mdl-card__media img {
-      width: 100%;
+    .feature-card-container .mdl-card__media img {
+			height:auto;
+			margin-left: auto;
+    	margin-right:auto;
+    	display:block;
     }
 
-  .android-card-container .mdl-card__title {
+  .feature-card-container .mdl-card__title {
     background: transparent;
     height: auto;
   }
 
-  .android-card-container .mdl-card__title-text {
+  .feature-card-container .mdl-card__title-text {
     color: black;
     height: auto;
   }
 
-  .android-card-container .mdl-card__supporting-text {
+  .feature-card-container .mdl-card__supporting-text {
     height: auto;
     color: black;
     padding-bottom: 56px;
   }
 
-  .android-card-container .mdl-card__actions {
+  .feature-card-container .mdl-card__actions {
     position: absolute;
     bottom: 0;
   }
 
-  .android-card-container .mdl-card__actions a {
+  .feature-card-container .mdl-card__actions a {
     border-top: none;
     font-size: 16px;
   }
@@ -458,6 +478,38 @@ a img{
     top: 6px;
   }
 
+.android-footer-fixed {
+  background-color: #fafafa;
+  position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+  .android-footer-fixed a:hover {
+	   color: #8bc34a;
+	}
+
+	.android-footer-fixed .mdl-mega-footer--top-section::after {
+	  border-bottom: none;
+	}
+
+	.android-footer-fixed .mdl-mega-footer--middle-section::after {
+	  border-bottom: none;
+	}
+
+	.android-footer-fixed .mdl-mega-footer--bottom-section {
+	  position: relative;
+	}
+
+	.android-footer-fixed .mdl-mega-footer--bottom-section a {
+	  margin-right: 2em;
+	}
+
+	.android-footer-fixed .mdl-mega-footer--right-section a .material-icons {
+	  position: relative;
+	  top: 6px;
+	}
 
 .android-link-menu:hover {
   cursor: pointer;
